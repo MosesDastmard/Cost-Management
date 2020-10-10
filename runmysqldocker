@@ -1,0 +1,1 @@
+docker run -v /home/moses/D/Github/cost_management/database:/var/lib/mysql --user 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=9903 -d mysql:latest
